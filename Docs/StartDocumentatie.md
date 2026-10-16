@@ -2,9 +2,10 @@
 
 ## Startdocumentatie en gemaakte afspraken
 
-**Versie 1.0**
-**9 september2026**
-**Status: Les 0 – Ontwikkelomgeving inrichten**
+**Versie:** 1.1  
+**Datum:** 9 september 2026  
+**Laatst bijgewerkt:** 16 oktober 2026  
+**Status:** Les 0 – Git-basis afgerond; voorbereiding eerste C#-oefening
 
 ## 1. Doel van het leertraject
 
@@ -200,6 +201,14 @@ Versiebeheer wordt stap voor stap geleerd.
 
 Er worden geen impliciete of automatische stappen overgeslagen.
 
+De repository in `E:\Leren Programeren` is lokaal geïnitialiseerd op branch `main`. De commando's `git init`, `git status`, `git add` en `git commit` zijn behandeld.
+
+Daarbij zijn staging, untracked files en de werkboom besproken.
+
+Er zijn twee commits gemaakt: eerst de startdocumentatie versie 1.0 met commitbericht `Startdocumentatie 1.0` en daarna de Git-uitleg versie 1.0 met commitbericht `git-uitleg versie 1.0`.
+
+Voor uitgebreide uitleg over deze onderwerpen geldt `Docs/GIT-UITLEG.md` als naslagwerk.
+
 ## 17. Gekozen Git-installatie-instellingen
 
 Tijdens de installatie van Git for Windows zijn onder andere de volgende keuzes gemaakt: Git for Windows x64; standaard installatiepad; standaardcomponenten behouden; Windows Explorer-integratie behouden; Git Bash en Git GUI-integratie behouden; Git LFS behouden; Visual Studio Code als standaard Git-teksteditor; standaard initial branch ingesteld op main; Git beschikbaar vanuit command line en third-party software; OpenSSL als HTTPS-backend; Windows-style checkout en Unix-style commit voor line endings; MinTTY voor Git Bash; standaard pull-gedrag: merge forward of merge); Git Credential Manager ingeschakeld; extra opties zoals file system cashing ingeschakeld.
@@ -211,6 +220,8 @@ Deze keuzes vormen het uitgangspunt voor verdere git oefeningen.
 De huidige werklocatie voor dit leertraject is E:\Leren Programeren.
 
 Deze locatie wordt gebruikt voor projecten en documentatie binnen dit leertraject.
+
+De documentatiemap heet `Docs`, met een hoofdletter D.
 
 ## 19. Bron van waarheid.
 
@@ -242,18 +253,31 @@ Dit document wordt versieerd.
 
 Wijzigingen worden kort beschreven zodat de ontwikkeling van het leertraject te volgen blijft.
 
-Deze versie is de eerste vastlegging van de gemaakte afspraken.
+Versie 1.0 was de oorspronkelijke vastlegging van de gemaakte afspraken.
+
+Versie 1.1 actualiseert de Git-voortgang op 16 oktober 2026.
 
 ## 23. Huidige voortgang
 
-Les 0 is tot nu toe beperkt tot het controleren van .NET en Git, het vastleggen van de werklocatie en het aanmaken van deze startdocumentatie.
+Les 0 omvat het controleren van .NET en Git, het vastleggen van de werklocatie, het aanmaken van de startdocumentatie en het behandelen van de Git-basis.
 
-Er is nog geen Git-repository geïnitialiseerd en er is nog geen C-sharp project aangemaakt.
+Git is lokaal geïnitialiseerd op branch `main`. De commits voor de startdocumentatie versie 1.0 en de Git-uitleg versie 1.0 zijn succesvol gemaakt.
+
+Na de tweede commit meldde `git status`:
+
+```text
+On branch main
+nothing to commit, working tree clean
+```
+
+`Docs/GIT-UITLEG.md` bestaat en is gecommit.
+
+Er is nog geen C#-project aangemaakt.
 
 ## 24. Volgende stap
 
-De eerstvolgende stap is dit document controleren en daarna, stap voor stap en expliciet, een Git-repository initialiseren en de eerste commit maken.
+De eerstvolgende stap is deze documentatie-update controleren en afzonderlijk committen.
 
-Pas daarna, en niet eerder, wordt een eerste klein C-sharp testproject aangemaakt.
+Daarna wordt onder begeleiding van ChatGPT gestart met een kleine C# Console App-oefening, zonder vooruit te lopen op het CRM-project.
 
-**Einde STARTDOCUMENTATIE.md versie 1.0**
+**Einde STARTDOCUMENTATIE.md versie 1.1**
