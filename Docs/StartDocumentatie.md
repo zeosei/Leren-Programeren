@@ -2,10 +2,10 @@
 
 ## Startdocumentatie en gemaakte afspraken
 
-**Versie:** 1.1  
+**Versie:** 1.2  
 **Datum:** 9 september 2026  
 **Laatst bijgewerkt:** 16 oktober 2026  
-**Status:** Les 0 – Git-basis afgerond; voorbereiding eerste C#-oefening
+**Status:** Les 0 afgerond; les 1 gestart – C#-basis en invoercontrole
 
 ## 1. Doel van het leertraject
 
@@ -257,27 +257,20 @@ Versie 1.0 was de oorspronkelijke vastlegging van de gemaakte afspraken.
 
 Versie 1.1 actualiseert de Git-voortgang op 16 oktober 2026.
 
+Versie 1.2 legt de derde commit, de beoordeling van het eigen console-CRM, de behandelde C#-basis en het startpunt voor de volgende les vast (16 oktober 2026).
+
 ## 23. Huidige voortgang
 
-Les 0 omvat het controleren van .NET en Git, het vastleggen van de werklocatie, het aanmaken van de startdocumentatie en het behandelen van de Git-basis.
+Les 0 is afgerond. De lokale Git-repository staat op branch `main`. Volgens de uitgevoerde controles zijn er drie commits, in volgorde: de oorspronkelijke startdocumentatie versie 1.0, de Git-uitleg versie 1.0 en de startdocumentatie versie 1.1. Na de derde commit meldde `git status`: `nothing to commit, working tree clean`. De exacte spelling van commitberichten blijft leidend zoals weergegeven door `git log --oneline` op de eigen computer.
 
-Git is lokaal geïnitialiseerd op branch `main`. De commits voor de startdocumentatie versie 1.0 en de Git-uitleg versie 1.0 zijn succesvol gemaakt.
+Les 1 is gestart aan de hand van een zelfstandig gemaakt, vroeg console-CRM-project (`Coding.zip`). Dit is als oefenproject beoordeeld, niet als afgeronde CRM-applicatie. Het programma vraagt om een naam, begroet de gebruiker en toont keuzes voor klant toevoegen, wijzigen en verwijderen. De menukeuzes geven momenteel alleen een melding; er worden nog geen klanten beheerd of opgeslagen. Het project is bekeken zonder wijzigingen aan de code.
 
-Na de tweede commit meldde `git status`:
+Behandeld en mondeling getoetst: `Console.WriteLine()`, `Console.ReadLine()`, variabelen declareren en opnieuw een waarde toekennen, `string` tegenover `int`, het concept van tekst naar getal omzetten, `if`/`else if`/`else`, `||` (OF), `&&` (EN), vergelijkingen inclusief `>=` en `<=`, grenswaarden en het verschil tussen geldige numerieke invoer en een toegestane waarde. Ook het verschil tussen tekst samenvoegen en getallen optellen is besproken.
 
-```text
-On branch main
-nothing to commit, working tree clean
-```
-
-`Docs/GIT-UITLEG.md` bestaat en is gecommit.
-
-Er is nog geen C#-project aangemaakt.
+De leerling kan deze onderwerpen op conceptniveau voldoende uitleggen. De precieze C#-syntaxis voor veilige omzetting van gebruikersinvoer is nog niet praktisch behandeld of getoetst. `int.TryParse()` is alleen kort geïntroduceerd. Er zijn in deze les geen wijzigingen aan de CRM-code gemaakt en geen nieuwe CRM-commit uitgevoerd.
 
 ## 24. Volgende stap
 
-De eerstvolgende stap is deze documentatie-update controleren en afzonderlijk committen.
+Volgende les: rustig en stapsgewijs leren hoe `Console.ReadLine()`-tekst veilig kan worden omgezet naar een `int` met `int.TryParse()`. Eerst uitleg en begripscontrole, daarna een kleine oefening met geldige en ongeldige invoer. Pas na begrip en controle besluiten of de eigen console-CRM wordt aangepast. Geen lesstappen overslaan en geen automatische codewijzigingen of commits uitvoeren.
 
-Daarna wordt onder begeleiding van ChatGPT gestart met een kleine C# Console App-oefening, zonder vooruit te lopen op het CRM-project.
-
-**Einde STARTDOCUMENTATIE.md versie 1.1**
+**Einde STARTDOCUMENTATIE.md versie 1.2**
