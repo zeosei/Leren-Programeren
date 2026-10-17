@@ -33,3 +33,4 @@ else
 {
     Console.WriteLine("Please make a choise of presented options.");
 }
+
