@@ -1,14 +1,11 @@
-# C-sharp .NET Leertraject
+C-sharp .NET Leertraject
+Startdocumentatie en gemaakte afspraken
+Versie: 1.3
+Datum: 9 september 2026
+Laatst bijgewerkt: 21 oktober 2026
+Status: Les 0 afgerond; les 1 gestart – C#-basis. Productrichting herzien naar modulair bedrijfsplatform; volgende lesstap nog vast te stellen.
 
-## Startdocumentatie en gemaakte afspraken
-
-**Versie:** 1.2  
-**Datum:** 9 september 2026  
-**Laatst bijgewerkt:** 16 oktober 2026  
-**Status:** Les 0 afgerond; les 1 gestart – C#-basis en invoercontrole
-
-## 1. Doel van het leertraject
-
+1. Doel van het leertraject
 Het doel van dit leertraject is C-sharp en .NET daadwerkelijk leren begrijpen en zelfstandig leren gebruiken.
 
 Het doel is nadrukkelijk niet alleen om werkende code te produceren.
@@ -18,29 +15,23 @@ Het leertraject moet leiden tot het zelfstandig kunnen analyseren van programmee
 Uiteindelijk moet de leerling zo min mogelijk afhankelijk zijn van AI voor het zelfstandig programmeren.
 
 AI mag ondersteunen bij het leerproces, maar mag het eigen denkproces, begrip en probleemoplossend vermogen niet vervangen.
+2. Langetermijndoel – modulair bedrijfsplatform
+Het leertraject heeft naast het zelfstandig leren programmeren een concreet langetermijndoel: een modulair bedrijfsplatform, in eerste instantie gericht op levering als SaaS. Het platform bestaat op termijn uit een centrale basis en afzonderlijke, naar behoefte af te nemen modules.
 
-## 2. Langetermijndoel – CRM-SaaS-project
+Magazijnbeheer en voorraadprocessen vormen de eerste productrichting. Leveranciersbeheer, inkoop en contractbeheer zijn mogelijke aansluitende modules. Een CRM kan later eventueel als optionele module worden toegevoegd, maar is niet langer het hoofdproduct.
 
-Het leertraject heeft naast het leren van C-sharp en .NET een concreet langetermijndoel.
+De productvisie is op 21 oktober 2026 aangepast. Het oorspronkelijke plan voor een zelfstandige CRM-SaaS blijft onderdeel van de projectgeschiedenis, maar is niet langer leidend voor nieuwe lessen of projecten.
 
-Naarmate voldoende kennis en programmeervaardigheid is opgebouwd, wordt toegewerkt naar het zelfstandig ontwerpen en ontwikkelen van een eigen CRM-applicatie, met de mogelijkheid deze later verder te ontwikkelen richting een SaaS-oplossing.
+Als richting voor het toekomstige platform gelden: centrale gebruikersaccounts en toegangsrechten; een dashboard; navigatie tussen modules; activeren en afschermen van modules op basis van rechten en abonnementen; duidelijke grenzen tussen modules. Dit zijn ontwerpideeën voor later, geen opdracht om nu al een platformarchitectuur te bouwen.
 
-Dit CRM-SaaS-project dient als stip op de horizon.
+Een mogelijke self-hostedvariant en veilige migratie van gegevens kunnen later worden onderzocht. De definitieve functionaliteiten, doelgroep, prioriteiten en commerciële haalbaarheid worden getoetst in het ondernemersspoor. Een eigen Git-hostingplatform is voorlopig geparkeerd.
 
-Het bepaalt niet dat stappen worden overgeslagen, maar zorgt ervoor dat oefeningen en projecten steeds beter aansluiten op technieken die later nodig zijn.
+Het leerdoel blijft dat de leerling de uiteindelijke software zoveel mogelijk zelfstandig kan begrijpen, ontwerpen, programmeren, testen, debuggen, documenteren en onderhouden, zonder dat AI het denkwerk overneemt.
 
-ChatGPT bewaakt wanneer voldoende basis aanwezig is om een volgende stap richting dit project te zetten.
+De globale technische route is: C#-fundamenten → .NET en kleine toepassingen → objectgeoriënteerd programmeren → databases → web-API's → beveiliging en testen → modulaire architectuur → deployment en beheer → eerste gevalideerde magazijnbeheermodule → eventuele SaaS-uitbreiding.
 
-Het uiteindelijke doel is dat de leerling het CRM-SaaS-project zoveel mogelijk zelf kan begrijpen, ontwerpen, programmeren, debuggen, onderhouden en verder ontwikkelen, en niet slechts een door AI gegenereerde applicatie te bezitten.
-
-De globale richting van het leertraject is: C-sharp-fundamenten → .NET → kleine applicaties → objectgeoriënteerd programmeren → databases → web API's → architectuur → beveiliging en testen → deployment en Linux → CRM → mogelijke SaaS-doorontwikkeling.
-
-Deze route is richtinggevend.
-
-De precieze stappen en volgorde mogen worden aangepast wanneer het daadwerkelijke kennis niveau of technische ontwikkelingen daar aanleiding toe geven.
-
-## 3. Rollen binnen het leertraject
-
+Deze route is richtinggevend. Er worden geen basisstappen overgeslagen om sneller een product te kunnen bouwen.
+3. Rollen binnen het leertraject
 ChatGPT heeft primair de rol van docent en technisch begeleider.
 
 Codex heeft primair de rol van werkbank voor het werken met daadwerkelijke bestanden en code in de repository.
@@ -52,9 +43,7 @@ Codex mag niet zelfstandig bepalen dat leerstappen kunnen worden overgeslagen wa
 De repository en de bijbehorende documentatie worden uiteindelijk de technische bron van waarheid voor het leertraject.
 
 Wanneer chatgeschiedenis, herinneringen of aannames in strijd zijn met de actuele repository en vastgelegde documentatie, heeft de actuele repository voorrang.
-
-## 4. Lesopbouw
-
+4. Lesopbouw
 Nieuwe stof wordt in kleine, begrijpelijke stappen aangeboden.
 
 De normale lesstructuur is uitleg van het onderwerp; controleren of de uitleg wordt begrepen; begeleide oefening; zelfstandige opdracht; bespreken en controleren van de oplossing; indien relevant huiswerk; bij een volgende les eerst controle van huiswerk en begrip; pas daarna nieuwe stof.
@@ -66,9 +55,7 @@ Wanneer stof snel en aantoonbaar wordt beheerst, mag het tempo omhoog.
 Wanneer belangrijke kennis nog onvoldoende beheerst is, wordt het tempo verlaagd.
 
 Begrip heeft voorrang boven snelheid.
-
-## 5. Zelf code leren schrijven
-
+5. Zelf code leren schrijven
 De leerling denkt zoveel mogelijk zelf na en schrijft zelf code.
 
 ChatGPT geeft daarom niet automatisch complete kopieerbare oplossingen.
@@ -78,9 +65,7 @@ Bij problemen wordt bij voorkeur gewerkt met vragen, aanwijzingen, kleine hints 
 Een volledige oplossing kan uiteindelijk worden besproken wanneer dat didactisch zinvol is, maar vervangt het eigen denkproces niet.
 
 Het in eigen woorden kunnen uitleggen van eigen code is onderdeel van het aantonen van begrip.
-
-## 6. Huiswerk
-
+6. Huiswerk
 Huiswerk is een vast onderdeel van het leerproces.
 
 Huiswerk kan bestaan uit kleine programmeeropdrachten; uitbreidingen op behandelde code; begripsvragen; debugging-opdrachten; lezen van documentatie; uitleggen van bestaande code, kleine zelfstandige ontwerpen.
@@ -88,9 +73,7 @@ Huiswerk kan bestaan uit kleine programmeeropdrachten; uitbreidingen op behandel
 Huiswerk wordt bij voorkeur zelfstandig gemaakt.
 
 Het doel is niet alleen dat het programma werkt, maar dat de leerling begrijpt waarom het werkt.
-
-## 7. Huiswerkcontrole
-
+7. Huiswerkcontrole
 Wanneer huiswerk is opgegeven, wordt dit aan het begin van de volgende relevante les gecontroleerd voordat nieuwe stof wordt behandeld.
 
 De controle kan bestaan uit code bekijken; vragen waarom bepaalde keuzes zijn gemaakt; laten uitleggen wat regels code doen; een kleine wijziging laten uitvoeren; een fout laten opsporen; vragen wat er gebeurt bij andere invoer.
@@ -100,9 +83,7 @@ Mogelijke beoordelingsniveaus zijn Voldoende beheerst; Gedeeltelijk beheerst; No
 Als huiswerk niet correct is, wordt niet automatisch direct de volledige oplossing gegeven.
 
 Eerst probeert de leerling zelf het probleem te herkennen, te analyseren, documentatie te raadplegen en een verbetering voor te stellen.
-
-## 8. Terugfluiten en bewaken van leertempo
-
+8. Terugfluiten en bewaken van leertempo
 ChatGPT heeft expliciet de rol en toestemming om de leerling terug te fluiten wanneer een gewenste stap te vroeg komt.
 
 Als de leerling bijvoorbeeld een geavanceerd onderwerp, framework of groot project wil starten terwijl noodzakelijke basiskennis ontbreekt, wordt die stap nog niet gezet.
@@ -112,9 +93,7 @@ Er wordt dan uitgelegd waarom en welke tussenstap eerst nodig is.
 Wanneer aantoonbaar voldoende kennis aanwezig is, mag het tempo juist omhoog.
 
 Het doel is een goede balans tussen uitdaging en daadwerkelijk begrip.
-
-## 9. Mijlpaaltoetsen
-
+9. Mijlpaaltoetsen
 Op belangrijke momenten kunnen toetsen of controlemomenten worden gehouden die bepalen of behandelde stof voldoende wordt beheerst om verder te gaan.
 
 Een toets kan bestaan uit zelfstandig code schrijven; uitleggen van bestaande code; begripsvragen; debugging; documentatie gebruiken; kleine ontwerpbeslissingen maken; voorspellen wat code zal doen.
@@ -122,9 +101,7 @@ Een toets kan bestaan uit zelfstandig code schrijven; uitleggen van bestaande co
 Een werkend eindresultaat alleen is niet automatisch voldoende; de leerling moet kunnen uitleggen waarom een oplossing correct is.
 
 De uitkomst van een mijlpaaltoets bepaalt of wordt doorgegaan met nieuwe stof of dat eerst extra geoefend wordt.
-
-## 10. Debugging-opdrachten en foutieve code als toetsmiddel
-
+10. Debugging-opdrachten en foutieve code als toetsmiddel
 ChatGPT of Codex mag bewust foutieve of misleidende code maken.
 
 Dit is een expliciet toets- en leermiddel.
@@ -138,9 +115,7 @@ Na het oplossen moet de leerling kunnen uitleggen wat er fout was; waarom het fo
 Debugging-opdrachten worden aangepast aan het behandelde niveau.
 
 Tijdens formele toetsmomenten worden fouten niet direct aangewezen; hints kunnen stapsgewijs worden gegeven en de hoeveelheid benodigde hulp kan meewegen in de beoordeling.
-
-## 11. Documentatievaardigheid
-
+11. Documentatievaardigheid
 Het zelfstandig kunnen gebruiken van officiële technische documentatie is een expliciet leerdoel.
 
 De leerling leert onder andere documentatie vinden; gericht doorzoeken; voorbeelden begrijpen; relevante informatie selecteren; informatie toepassen in eigen code; versie-informatie controleren.
@@ -150,15 +125,11 @@ ChatGPT verwijst daarom waar mogelijk naar documentatie in plaats van altijd het
 Documentatie gebruiken wordt gezien als een professionele vaardigheid en niet als valsspelen.
 
 Naast het gebruiken van externe documentatie leert de leerling ook eigen documentatie duidelijk en bruikbaar bij te houden.
-
-## 12. Herhaling en onverwachte controle
-
+12. Herhaling en onverwachte controle
 Eerder behandelde stof kan later onverwacht opnieuw worden bevraagd in de vorm van korte vragen, kleine opdrachten, debugging of het toepassen van oude concepten in een nieuwe context.
 
 Dit helpt om kennis op lange termijn vast te houden.
-
-## 13. Feedback en beoordeling
-
+13. Feedback en beoordeling
 Feedback is concreet en gericht op verbetering.
 
 Er wordt onder andere gekeken naar begrip; correctheid; redenatie; leesbaarheid; zelfstandigheid; debugging-vaardigheid; documentatiegebruik; vermogen om keuzes uit te leggen.
@@ -166,111 +137,107 @@ Er wordt onder andere gekeken naar begrip; correctheid; redenatie; leesbaarheid;
 Fouten maken hoort bij leren; fouten begrijpen en herstellen is belangrijker dan fouten vermijden.
 
 Wanneer iets niet wordt begrepen, wordt de stof waar nodig opgesplitst in kleinere stappen.
-
-## 14. Primaire ontwikkelomgeving
-
+14. Primaire ontwikkelomgeving
 De primaire ontwikkelomgeving is Windows x64.
 
 Linux wordt later als apart leeronderwerp toegevoegd.
 
 De Linux-machine kan later onder andere gebruikt worden voor persoonlijke serverdiensten en deployment-oefeningen.
+15. Gecontroleerde software en tools
+Primaire omgeving: Windows x64. De laatst expliciet gecontroleerde .NET SDK-versie is 10.0.301.
 
-## 15. Gecontroleerde software en tools
+Visual Studio 2022 was de oorspronkelijke IDE. De gebruiker heeft de overstap naar Visual Studio 2026 aangekondigd en aangegeven dat de ontwikkelomgeving op de pc en laptop is voorbereid. De werking van een nieuw leerproject op beide apparaten moet nog in een volgende sessie worden gecontroleerd.
 
-.NET gecontroleerde versie: .NET SDK10.0.301.
+Git for Windows is eerder gecontroleerd (versie 2.55.0.1.windows.5). GitHub Desktop is op zowel vaste pc als laptop aanwezig. Visual Studio Code en andere editors zijn geen primaire lesomgeving.
 
-Controle uitgevoerd met 'dotnet –-version'.
+Versies en installatiegegevens worden opnieuw gecontroleerd wanneer dat voor een les of opdracht nodig is.
+16. Git- en GitHub-voortgang
+Git is lokaal geïnitialiseerd in E:\Leren Programeren op branch main. Behandeld zijn onder meer git init, git status, git add, git commit, git log --oneline, git restore, staging, tracked/untracked bestanden en .gitignore.
 
-Visual Studio Primaire IDE: Visual Studio 2022.
+De eerste vier lokale commits betreffen: startdocumentatie 1.0; Git-uitleg 1.0; startdocumentatie 1.1; en StartDocumentatie 1.2 en eerste C-sharp project. Na de vierde commit meldde de lokale werkboom nothing to commit, working tree clean.
 
-Visual Studio Code en Visual Studio Insiders zijn aanwezig, maar worden voorlopig niet gebruikt als primaire C-sharp IDE.
+De GitHub-repository https://github.com/zeosei/Leren-Programeren is op 17 oktober 2026 gecontroleerd. Daar stonden de vier genoemde commits en daarnaast een nieuwere commit init commit. De mappen Docs/, Coding/ en het bestand .gitignore waren op de branch main zichtbaar. Dit bevestigt de online aanwezigheid van het werk op dat controlemoment, niet de actuele lokale status van beide computers.
 
-De C-Sharp Console App-template is beschikbaar Git Gecontroleerde Git-versie: git version2.55.0.1.windows.5.
+De gebruiker wil afwisselend werken op vaste pc en laptop. GitHub Desktop is op beide beschikbaar. Of de repository inmiddels op de laptop is gekloond, is nog niet bevestigd. Voor het wisselen tussen computers worden fetch/pull, commit en push stapsgewijs behandeld. GitHub synchroniseert projectbestanden, maar niet automatisch alle persoonlijke IDE-instellingen.
 
-Git is succesvol getest vanuit Git Bash en Windows Command Prompt.
-
-## 16. Git-basis die tot nu toe is behandeld
-
-Git is een lokaal versiebeheersysteem waarmee wijzigingen en geschiedenis van bestanden lokaal en offline kunnen worden bijgehouden.
-
-GitHub is een externe online dienst waar Git-repositories kunnen worden opgeslagen en gedeeld.
-
-Standaard branch-naam voor nieuwe repositories is main.
-
-Versiebeheer wordt stap voor stap geleerd.
-
-Er worden geen impliciete of automatische stappen overgeslagen.
-
-De repository in `E:\Leren Programeren` is lokaal geïnitialiseerd op branch `main`. De commando's `git init`, `git status`, `git add` en `git commit` zijn behandeld.
-
-Daarbij zijn staging, untracked files en de werkboom besproken.
-
-Er zijn twee commits gemaakt: eerst de startdocumentatie versie 1.0 met commitbericht `Startdocumentatie 1.0` en daarna de Git-uitleg versie 1.0 met commitbericht `git-uitleg versie 1.0`.
-
-Voor uitgebreide uitleg over deze onderwerpen geldt `Docs/GIT-UITLEG.md` als naslagwerk.
-
-## 17. Gekozen Git-installatie-instellingen
-
+Docs/GIT-UITLEG.md blijft het naslagwerk voor de Git-basis. Geen Git-wijzigingen of commits zonder expliciete opdracht en controle.
+17. Gekozen Git-installatie-instellingen
 Tijdens de installatie van Git for Windows zijn onder andere de volgende keuzes gemaakt: Git for Windows x64; standaard installatiepad; standaardcomponenten behouden; Windows Explorer-integratie behouden; Git Bash en Git GUI-integratie behouden; Git LFS behouden; Visual Studio Code als standaard Git-teksteditor; standaard initial branch ingesteld op main; Git beschikbaar vanuit command line en third-party software; OpenSSL als HTTPS-backend; Windows-style checkout en Unix-style commit voor line endings; MinTTY voor Git Bash; standaard pull-gedrag: merge forward of merge); Git Credential Manager ingeschakeld; extra opties zoals file system cashing ingeschakeld.
 
 Deze keuzes vormen het uitgangspunt voor verdere git oefeningen.
-
-## 18. Huidige werklocatie
-
+18. Huidige werklocatie
 De huidige werklocatie voor dit leertraject is E:\Leren Programeren.
 
 Deze locatie wordt gebruikt voor projecten en documentatie binnen dit leertraject.
 
-De documentatiemap heet `Docs`, met een hoofdletter D.
-
-## 19. Bron van waarheid.
-
+De documentatiemap heet Docs, met een hoofdletter D.
+19. Bron van waarheid.
 De bron van waarheid bestaat uit de repository en de bijbehorende documentatie.
 
 Chatgeschiedenis is ondersteunend, maar niet leidend.
 
 Als de documentatie afwijkt van de werkelijkheid, wordt de documentatie bijgewerkt zodat deze weer klopt.
-
-## 20. Gesprek en context...
-
+20. Gesprek en context...
 Dit gesprek dient als lescontext.
 
 Niet alle context is automatisch beschikbaar in Codex.
 
 Daarom wordt belangrijke informatie vastgelegd in de documentatie binnen het project.
-
-## 21 Codex werkinstructie
-
+21 Codex werkinstructie
 Codex werkt uitsluitend binnen de afgesproken werklocatie en voert alleen acties uit na expliciete opdracht.
 
 Standaard werkt Codex bij voorkeur read-only.
 
 Bij wijzigingen wordt eerst duidelijk aangegeven wat er gaat gebeuren.
+22. Versiebeheer van dit document
+Dit document wordt geversioneerd; wijzigingen worden beschreven zodat de ontwikkeling van het leertraject te volgen blijft.
+- Versie 1.0 (9 september 2026): oorspronkelijke leerafspraken.
+- Versie 1.1 (16 oktober 2026): actualisering Git-voortgang.
+- Versie 1.2 (16 oktober 2026): vastlegging beoordeling eerste console-oefenproject, C#-begrip en lesvoortgang.
+- Versie 1.3 (21 oktober 2026, concept): herziening naar modulair bedrijfsplatform met magazijnbeheer als eerste richting; toevoeging afzonderlijk ondernemersspoor; actualisering GitHub en ontwikkelomgeving; aanscherping volgende lesstappen.
+Een nieuwe versie wordt pas definitief na inhoudelijke controle, lokale opslag en een expliciet uitgevoerde Git-commit.
+23. Huidige voortgang
+Les 0 – Git-basis: afgerond. Vier lokale commits zijn in de lessen bevestigd; de GitHub-repository bevatte bij controle ook een aanvullende init commit. GitHub Desktop is aanwezig op pc en laptop.
 
-## 22. Versiebeheer van dit document...
+Les 1 – C#-basis: gestart. Als eerste beoordelingsmateriaal is een zelfstandig gemaakt consoleproject (Coding) bekeken. Dit project vroeg om een naam en bood een eenvoudig menu voor klantopties, maar bevatte nog geen werkende gegevensopslag. Het is een historisch oefenproject, niet de basis voor het nieuwe modulaire platform.
 
-Dit document wordt versieerd.
+Mondeling behandeld en op conceptniveau voldoende uitgelegd: Console.WriteLine(), Console.ReadLine(), variabelen, string en int, declareren en opnieuw toekennen, if/else if/else, ||, &&, vergelijkingen (>=, <=), grenswaarden, tekst samenvoegen versus numeriek optellen, en het onderscheid tussen tekstinvoer en een getal.
 
-Wijzigingen worden kort beschreven zodat de ontwikkeling van het leertraject te volgen blijft.
+De concrete C#-syntaxis voor veilige conversie van tekst naar een getal is nog niet praktisch behandeld of getoetst. int.TryParse() is genoemd als mogelijke vervolgstap, maar niet definitief als volgende les vastgesteld.
 
-Versie 1.0 was de oorspronkelijke vastlegging van de gemaakte afspraken.
+Nieuwe projectafspraak: we beginnen op een geschikt lesmoment met een schoon C#-consoleproject. De oude CRM-oefencode wordt niet automatisch hergebruikt. Nieuwe voorbeelden sluiten waar mogelijk aan bij magazijnbeheer, artikelen, voorraad, locaties en leveranciers.
 
-Versie 1.1 actualiseert de Git-voortgang op 16 oktober 2026.
+Er is nog geen nieuw modulair platform gebouwd. De documentatie en ondernemerslessen worden eerst op de gewijzigde koers afgestemd.
+24. Volgende stap
+Bij de eerstvolgende sessie worden eerst de inhoud van deze versie 1.3 en de actuele lokale Git-status gecontroleerd. Na akkoord wordt de herziene StartDocumentatie.md op de afgesproken locatie opgeslagen en expliciet gestaged en gecommit; daarna kan een push naar GitHub worden gecontroleerd.
 
-Versie 1.2 legt de derde commit, de beoordeling van het eigen console-CRM, de behandelde C#-basis en het startpunt voor de volgende les vast (16 oktober 2026).
+Vervolgens controleren we de laatste daadwerkelijk afgeronde C#-lesstof en bepalen we samen de eerstvolgende oefening. Er wordt niet automatisch aangenomen dat dit int.TryParse() moet zijn. Het nieuwe, schone consoleproject wordt pas gestart wanneer dat didactisch passend is.
 
-## 23. Huidige voortgang
+De afspraken over kleine leerstappen, zelfstandig denken, huiswerkcontrole, debugging, documentatie, mijlpaaltoetsen en terugfluiten blijven volledig van kracht.
+25. Afzonderlijk ondernemersspoor – bedrijfsvoering en markt
+Naast het technische leertraject (spoor A) komt een afzonderlijk ondernemersleertraject (spoor B). Beide sporen mogen inhoudelijk op elkaar aansluiten, maar worden apart behandeld, gedocumenteerd en beoordeeld.
 
-Les 0 is afgerond. De lokale Git-repository staat op branch `main`. Volgens de uitgevoerde controles zijn er drie commits, in volgorde: de oorspronkelijke startdocumentatie versie 1.0, de Git-uitleg versie 1.0 en de startdocumentatie versie 1.1. Na de derde commit meldde `git status`: `nothing to commit, working tree clean`. De exacte spelling van commitberichten blijft leidend zoals weergegeven door `git log --oneline` op de eigen computer.
+De voorlopige onderwerpen zijn:
+1. Ondernemersdoel, bedrijfsvoering en rol van de oprichter.
+2. Problemen en werkprocessen bij bedrijven met magazijn- en voorraadbeheer.
+3. Doelgroepen, interviews en marktvalidatie.
+4. Concurrentie, positionering en waardepropositie.
+5. Modulaire SaaS-abonnementen, prijsstelling en verdienmodel.
+6. Kosten, begroting, cashflow en financiële haalbaarheid.
+7. Juridische, contractuele, privacy- en beveiligingsverplichtingen.
+8. Marketing, verkoop, onboarding, ondersteuning en klantbehoud.
+9. Bedrijfsprocessen, documentatie, kwaliteit en continuïteit.
+10. Personeel, delegeren, schaalbaarheid en overdraagbaarheid van het bedrijf.
+Dit is een leerroute, geen reeds gevalideerd ondernemingsplan. Markt- en productaannames worden kritisch onderzocht. Huiswerk, praktijkopdrachten, feedback en toetsmomenten horen ook bij spoor B. Het tempo blijft flexibel en afgestemd op de beschikbare tijd van de leerling.
+26. Docker, Kubernetes en latere infrastructuur
+Docker wordt op een later moment behandeld, nadat voldoende kennis bestaat van .NET-toepassingen, databases, configuratie en deployment. Hierbij kan ook Docker Compose aan bod komen voor meerdere samenwerkende services.
 
-Les 1 is gestart aan de hand van een zelfstandig gemaakt, vroeg console-CRM-project (`Coding.zip`). Dit is als oefenproject beoordeeld, niet als afgeronde CRM-applicatie. Het programma vraagt om een naam, begroet de gebruiker en toont keuzes voor klant toevoegen, wijzigen en verwijderen. De menukeuzes geven momenteel alleen een melding; er worden nog geen klanten beheerd of opgeslagen. Het project is bekeken zonder wijzigingen aan de code.
+Kubernetes is een optioneel, gevorderd leeronderwerp. Het wordt pas overwogen na Docker, netwerken, beveiliging, monitoring en deployment, en is geen vereiste voor een eerste werkende module of SaaS-MVP.
 
-Behandeld en mondeling getoetst: `Console.WriteLine()`, `Console.ReadLine()`, variabelen declareren en opnieuw een waarde toekennen, `string` tegenover `int`, het concept van tekst naar getal omzetten, `if`/`else if`/`else`, `||` (OF), `&&` (EN), vergelijkingen inclusief `>=` en `<=`, grenswaarden en het verschil tussen geldige numerieke invoer en een toegestane waarde. Ook het verschil tussen tekst samenvoegen en getallen optellen is besproken.
+De eerste productomgeving moet zo eenvoudig, veilig en onderhoudbaar mogelijk zijn. Technische complexiteit wordt alleen toegevoegd als daar een aantoonbare noodzaak voor bestaat.
+27. Scheiding tussen lesproject, product en bedrijfsplan
+Het C#-consoleproject dient voorlopig als leeromgeving, niet als de productiecode voor het toekomstige platform. Een later productontwerp volgt pas na voldoende technische basis en zakelijke validatie.
 
-De leerling kan deze onderwerpen op conceptniveau voldoende uitleggen. De precieze C#-syntaxis voor veilige omzetting van gebruikersinvoer is nog niet praktisch behandeld of getoetst. `int.TryParse()` is alleen kort geïntroduceerd. Er zijn in deze les geen wijzigingen aan de CRM-code gemaakt en geen nieuwe CRM-commit uitgevoerd.
+De modulelijst, abonnementsstructuur, technische architectuur en self-hostedmogelijkheden zijn voorlopige richtingen, geen vaststaande verplichtingen. Wijzigingen worden gedocumenteerd met motivatie en versiegeschiedenis.
 
-## 24. Volgende stap
-
-Volgende les: rustig en stapsgewijs leren hoe `Console.ReadLine()`-tekst veilig kan worden omgezet naar een `int` met `int.TryParse()`. Eerst uitleg en begripscontrole, daarna een kleine oefening met geldige en ongeldige invoer. Pas na begrip en controle besluiten of de eigen console-CRM wordt aangepast. Geen lesstappen overslaan en geen automatische codewijzigingen of commits uitvoeren.
-
-**Einde STARTDOCUMENTATIE.md versie 1.2**
+Einde STARTDOCUMENTATIE.md versie 1.3
