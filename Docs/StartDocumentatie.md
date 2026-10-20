@@ -10,7 +10,17 @@ Het doel van dit leertraject is C-sharp en .NET daadwerkelijk leren begrijpen en
 
 Het doel is nadrukkelijk niet alleen om werkende code te produceren.
 
-Het leertraject moet leiden tot het zelfstandig kunnen analyseren van programmeerproblemen; het bedenken van oplossingen; schrijven van C-sharp-code; lezen en begrijpen van bestaande code; debuggen van eigen en andermans code; gebruiken van ontwikkeltools; lezen en toepassen van technische documentatie; ontwerpen en bouwen van steeds complexere software; uitleggen waarom een gekozen oplossing werkt.
+Het leertraject moet leiden tot het zelfstandig kunnen
+
+- analyseren van programmeerproblemen;
+- het bedenken van oplossingen;
+- schrijven van C-sharp-code;
+- lezen en begrijpen van bestaande code;
+- debuggen van eigen en andermans code;
+- gebruiken van ontwikkeltools;
+- lezen en toepassen van technische documentatie;
+- ontwerpen en bouwen van steeds complexere software;
+- uitleggen waarom een gekozen oplossing werkt.
 
 Uiteindelijk moet de leerling zo min mogelijk afhankelijk zijn van AI voor het zelfstandig programmeren.
 
@@ -36,7 +46,16 @@ ChatGPT heeft primair de rol van docent en technisch begeleider.
 
 Codex heeft primair de rol van werkbank voor het werken met daadwerkelijke bestanden en code in de repository.
 
-ChatGPT bewaakt onder andere lesopbouw; niveau; begrip; huiswerk; toetsen; voortgang; terugkoppeling; het moment waarop nieuwe stof wordt aangeboden.
+ChatGPT bewaakt onder andere
+
+- lesopbouw;
+- niveau;
+- begrip;
+- huiswerk;
+- toetsen;
+- voortgang;
+- terugkoppeling;
+- het moment waarop nieuwe stof wordt aangeboden.
 
 Codex mag niet zelfstandig bepalen dat leerstappen kunnen worden overgeslagen wanneer dit strijdig is met deze documentatie.
 
@@ -46,7 +65,16 @@ Wanneer chatgeschiedenis, herinneringen of aannames in strijd zijn met de actuel
 4. Lesopbouw
 Nieuwe stof wordt in kleine, begrijpelijke stappen aangeboden.
 
-De normale lesstructuur is uitleg van het onderwerp; controleren of de uitleg wordt begrepen; begeleide oefening; zelfstandige opdracht; bespreken en controleren van de oplossing; indien relevant huiswerk; bij een volgende les eerst controle van huiswerk en begrip; pas daarna nieuwe stof.
+De normale lesstructuur is
+
+- uitleg van het onderwerp;
+- controleren of de uitleg wordt begrepen;
+- begeleide oefening;
+- zelfstandige opdracht;
+- bespreken en controleren van de oplossing;
+- indien relevant huiswerk;
+- bij een volgende les eerst controle van huiswerk en begrip;
+- pas daarna nieuwe stof.
 
 Het tempo ligt niet vooraf vast.
 
@@ -68,7 +96,14 @@ Het in eigen woorden kunnen uitleggen van eigen code is onderdeel van het aanton
 6. Huiswerk
 Huiswerk is een vast onderdeel van het leerproces.
 
-Huiswerk kan bestaan uit kleine programmeeropdrachten; uitbreidingen op behandelde code; begripsvragen; debugging-opdrachten; lezen van documentatie; uitleggen van bestaande code, kleine zelfstandige ontwerpen.
+Huiswerk kan bestaan uit
+
+- kleine programmeeropdrachten;
+- uitbreidingen op behandelde code;
+- begripsvragen;
+- debugging-opdrachten;
+- lezen van documentatie;
+- uitleggen van bestaande code, kleine zelfstandige ontwerpen.
 
 Huiswerk wordt bij voorkeur zelfstandig gemaakt.
 
@@ -76,9 +111,20 @@ Het doel is niet alleen dat het programma werkt, maar dat de leerling begrijpt w
 7. Huiswerkcontrole
 Wanneer huiswerk is opgegeven, wordt dit aan het begin van de volgende relevante les gecontroleerd voordat nieuwe stof wordt behandeld.
 
-De controle kan bestaan uit code bekijken; vragen waarom bepaalde keuzes zijn gemaakt; laten uitleggen wat regels code doen; een kleine wijziging laten uitvoeren; een fout laten opsporen; vragen wat er gebeurt bij andere invoer.
+De controle kan bestaan uit
 
-Mogelijke beoordelingsniveaus zijn Voldoende beheerst; Gedeeltelijk beheerst; Nog oefenen.
+- code bekijken;
+- vragen waarom bepaalde keuzes zijn gemaakt;
+- laten uitleggen wat regels code doen;
+- een kleine wijziging laten uitvoeren;
+- een fout laten opsporen;
+- vragen wat er gebeurt bij andere invoer.
+
+Mogelijke beoordelingsniveaus zijn
+
+- Voldoende beheerst;
+- Gedeeltelijk beheerst;
+- Nog oefenen.
 
 Als huiswerk niet correct is, wordt niet automatisch direct de volledige oplossing gegeven.
 
@@ -96,7 +142,15 @@ Het doel is een goede balans tussen uitdaging en daadwerkelijk begrip.
 9. Mijlpaaltoetsen
 Op belangrijke momenten kunnen toetsen of controlemomenten worden gehouden die bepalen of behandelde stof voldoende wordt beheerst om verder te gaan.
 
-Een toets kan bestaan uit zelfstandig code schrijven; uitleggen van bestaande code; begripsvragen; debugging; documentatie gebruiken; kleine ontwerpbeslissingen maken; voorspellen wat code zal doen.
+Een toets kan bestaan uit
+
+- zelfstandig code schrijven;
+- uitleggen van bestaande code;
+- begripsvragen;
+- debugging;
+- documentatie gebruiken;
+- kleine ontwerpbeslissingen maken;
+- voorspellen wat code zal doen.
 
 Een werkend eindresultaat alleen is niet automatisch voldoende; de leerling moet kunnen uitleggen waarom een oplossing correct is.
 
@@ -110,7 +164,11 @@ Bij een formele debugging-opdracht krijgt de leerling niet vooraf te horen hoeve
 
 De leerling leert zelf foutmeldingen lezen, fouten lokaliseren, hulpmiddelen gebruiken en oplossingen maken.
 
-Na het oplossen moet de leerling kunnen uitleggen wat er fout was; waarom het fout was; waarom de gekozen oplossing correct is.
+Na het oplossen moet de leerling kunnen uitleggen
+
+- wat er fout was;
+- waarom het fout was;
+- waarom de gekozen oplossing correct is.
 
 Debugging-opdrachten worden aangepast aan het behandelde niveau.
 
@@ -118,7 +176,14 @@ Tijdens formele toetsmomenten worden fouten niet direct aangewezen; hints kunnen
 11. Documentatievaardigheid
 Het zelfstandig kunnen gebruiken van officiële technische documentatie is een expliciet leerdoel.
 
-De leerling leert onder andere documentatie vinden; gericht doorzoeken; voorbeelden begrijpen; relevante informatie selecteren; informatie toepassen in eigen code; versie-informatie controleren.
+De leerling leert onder andere
+
+- documentatie vinden;
+- gericht doorzoeken;
+- voorbeelden begrijpen;
+- relevante informatie selecteren;
+- informatie toepassen in eigen code;
+- versie-informatie controleren.
 
 ChatGPT verwijst daarom waar mogelijk naar documentatie in plaats van altijd het antwoord te geven.
 
@@ -132,7 +197,16 @@ Dit helpt om kennis op lange termijn vast te houden.
 13. Feedback en beoordeling
 Feedback is concreet en gericht op verbetering.
 
-Er wordt onder andere gekeken naar begrip; correctheid; redenatie; leesbaarheid; zelfstandigheid; debugging-vaardigheid; documentatiegebruik; vermogen om keuzes uit te leggen.
+Er wordt onder andere gekeken naar
+
+- begrip;
+- correctheid;
+- redenatie;
+- leesbaarheid;
+- zelfstandigheid;
+- debugging-vaardigheid;
+- documentatiegebruik;
+- vermogen om keuzes uit te leggen.
 
 Fouten maken hoort bij leren; fouten begrijpen en herstellen is belangrijker dan fouten vermijden.
 
@@ -162,7 +236,23 @@ De gebruiker wil afwisselend werken op vaste pc en laptop. GitHub Desktop is op 
 
 Docs/GIT-UITLEG.md blijft het naslagwerk voor de Git-basis. Geen Git-wijzigingen of commits zonder expliciete opdracht en controle.
 17. Gekozen Git-installatie-instellingen
-Tijdens de installatie van Git for Windows zijn onder andere de volgende keuzes gemaakt: Git for Windows x64; standaard installatiepad; standaardcomponenten behouden; Windows Explorer-integratie behouden; Git Bash en Git GUI-integratie behouden; Git LFS behouden; Visual Studio Code als standaard Git-teksteditor; standaard initial branch ingesteld op main; Git beschikbaar vanuit command line en third-party software; OpenSSL als HTTPS-backend; Windows-style checkout en Unix-style commit voor line endings; MinTTY voor Git Bash; standaard pull-gedrag: merge forward of merge); Git Credential Manager ingeschakeld; extra opties zoals file system cashing ingeschakeld.
+Tijdens de installatie van Git for Windows zijn onder andere de volgende keuzes gemaakt:
+
+- Git for Windows x64;
+- standaard installatiepad;
+- standaardcomponenten behouden;
+- Windows Explorer-integratie behouden;
+- Git Bash en Git GUI-integratie behouden;
+- Git LFS behouden;
+- Visual Studio Code als standaard Git-teksteditor;
+- standaard initial branch ingesteld op main;
+- Git beschikbaar vanuit command line en third-party software;
+- OpenSSL als HTTPS-backend;
+- Windows-style checkout en Unix-style commit voor line endings;
+- MinTTY voor Git Bash;
+- standaard pull-gedrag: merge forward of merge);
+- Git Credential Manager ingeschakeld;
+- extra opties zoals file system cashing ingeschakeld.
 
 Deze keuzes vormen het uitgangspunt voor verdere git oefeningen.
 18. Huidige werklocatie
